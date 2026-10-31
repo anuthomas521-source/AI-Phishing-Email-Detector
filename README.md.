@@ -1,0 +1,51 @@
+# AI-Based Phishing Email Detector
+
+## Project Overview
+An introductory machine-learning project that identifies potentially phishing emails and classifies them as either **Phishing** or **Legitimate**.
+
+The application provides a simple web interface where users can paste an email and receive a prediction with a model confidence score.
+
+## Technologies Used
+- Python
+- Pandas
+- Scikit-learn
+- TF-IDF Vectorization
+- Multinomial Naive Bayes
+- Streamlit
+- Google Colab
+
+## Features
+- Email text input
+- Phishing and legitimate email classification
+- Model confidence score
+- Interactive Streamlit interface
+
+## How It Works
+1. A small labelled email dataset is used for training.
+2. TF-IDF converts email text into numerical features.
+3. A Multinomial Naive Bayes model learns from the training examples.
+4. The application predicts the category of a submitted email.
+5. The prediction and confidence estimate are displayed.
+
+## How to Run
+
+Install the required libraries:
+
+```bash
+pip install streamlit pandas scikit-learn
+```
+
+Run the application:
+
+```bash
+streamlit run app.py
+```
+
+## How I Used AI
+I used AI assistance to understand the machine-learning workflow, develop and improve code, troubleshoot errors, and build the Streamlit application. I tested the application and made corrections during development.
+
+## Limitations
+This is a beginner-level educational prototype trained on a small sample dataset. Its predictions and confidence scores are not reliable enough for real-world security decisions.
+
+## Author
+Anu Thomas
